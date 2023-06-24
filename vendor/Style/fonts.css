@@ -1,0 +1,18 @@
+
+@font-face {
+    font-family: 'IRANSansWeb-FaNum_Bold';
+    src: url('/vendor/font/IRANSansWeb-FaNum_Bold.woff') format('woff');
+
+
+}
+
+@font-face {
+    font-family: 'IRANSansWeb-FaNum';
+    src: url('/vendor/font/IRANSansWeb-FaNum.woff') format('woff');
+
+}
+
+@font-face {
+    font-family: 'Pinar-DS1-FD';
+    src: url('/vendor/font/Pinar-DS1-FD.woff') format('woff');
+}

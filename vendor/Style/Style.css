@@ -1,0 +1,743 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*header*/
+.navbar-menu {
+    font-family: IRANSansWeb-FaNum, serif;
+    margin-right: 28%;
+    margin-top: 5px;
+}
+.logo {
+    margin: 23px 0 0 0;
+}
+.nav-items li{
+    font-size: 15px;
+    padding: 9px;
+}
+.nav-items .active {
+    color: #F27E3F;
+}
+.nav-items ul li a{
+    font-size: 15px;
+    color: #002352;
+}
+.navbar .consultant {
+    padding-left: 42px;
+}
+.consultant :first-of-type{
+    display: inline-block;
+    font-size: 12px;
+    color: #002352;
+    margin: 0 0 8px 0;
+    font-family: Pinar-DS1-FD, serif ;
+}
+.consultant :last-of-type{
+    display: inline-block;
+    font-size: 15px;
+    color: #ed6905;
+    font-family: Pinar-DS1-FD, serif ;
+}
+.consultant-request {
+    width: 135px;
+    height: 60px;
+    margin-left: 45px;
+    font-size: 15px;
+    border-radius: 50px;
+    background-color: #002352;
+    color: #FEFFFF;
+    font-family: IRANSansWeb-FaNum_Bold, serif;
+}
+.consultant-request:hover {
+    background-color: #1653A4;
+    margin-bottom: 3px;
+    transition-duration: .25s ;
+}
+
+
+/* Introduction Section */
+
+.introduction-sec1 h6 {
+    font-size: 12px;
+    margin: 135px 4px 0 0;
+    font-family: Pinar-DS1-FD, serif;
+}
+.introduction-sec1 :nth-child(2) {
+    width: 100% !important;
+    font-size: 70px;
+    color: #063a71;
+    margin-top: 38px;
+    font-family: Pinar-DS1-FD, serif;
+}
+.introduction-sec1 h1 {
+    width: 100% !important;
+    font-size: 70px;
+    color: #063a71;
+    font-family: Pinar-DS1-FD, serif;
+    margin-top: -10px;
+}
+.introduction-sec1 p {
+    width: 100% !important;
+    /* margin: 105px 1px 0 0; */
+    font-size: 20px;
+    color: #616b77;
+    line-height: 32px;
+    font-family: IRANSansWeb-FaNum, serif;
+    width: 700px;
+}
+.introduction-sec1 button {
+    width: 135px;
+    height: 60px;
+    margin: 63px 0 0 50px;
+    font-size: 15px;
+    border-radius: 50px;
+    border: none;
+    background-image: linear-gradient(90deg, #f17a41, #fd4f53);
+    color: #ffffff;
+    font-family: IRANSansWeb-FaNum_Bold, serif;
+
+}
+.introduction-sec1 button:hover {
+    margin-right: 15px;
+    transition-duration: .25s;
+}
+.introduction-sec1 button:hover .arrow-edit{
+    display: block;
+    margin-right: 10px;
+    position: absolute;
+    right: 78px;
+    top: 724px;
+}
+.arrow-edit {
+    display: none;
+}
+.introduction-sec2 {
+    width: 50% !important;
+    height: 100% !important;
+
+}
+.introduction-sec2 img{
+    width: 100%;
+    height: 50%;
+    position: relative;
+    right: 60px;
+    margin-left: 10% !important;
+    border-radius: 45%;
+    animation: wave 5s ease alternate infinite;
+}
+@keyframes wave {
+    0% ,30% {
+        border-top-left-radius: 20%;
+        border-bottom-left-radius: 220px;
+        border-bottom-right-radius: 290px;
+    }
+    30% ,60% {
+        border-top-right-radius: 150px;
+        border-bottom-left-radius: 180px;
+        border-top-left-radius: 250px;
+
+    }
+    60% ,90% {
+        border-top-left-radius: 290px;
+        border-bottom-right-radius: 320px;
+        border-top-right-radius: 220px;
+
+    }
+    90% ,100% {
+        border-top-left-radius: 250px;
+        border-bottom-right-radius: 290px;
+    }
+}
+
+/* About us Section */
+.about-section {
+    max-width: 1150px !important;
+    margin-top: 160px;
+    margin-left: 90px;
+}
+.about-image {
+    margin-left: -65px;
+}
+.about-section h3 {
+    font-family: Pinar-DS1-FD, serif;
+    font-size: 18px;
+    color: #063a71;
+    font-weight: 900;
+}
+.about-section p {
+    font-family: IRANSansWeb-FaNum, serif;
+    font-size: 15px;
+    letter-spacing: 0 ;
+}
+
+
+/*Service section*/
+.service-section {
+    margin-top: 150px;
+}
+.service-section .row {
+    --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+}
+.cards {
+    margin-top: 102px;
+}
+.card {
+    box-shadow: 0 4px 0 rgba(0, 0, 0, 0.1);
+}
+.card-img {
+    width: 500px;
+    height: 487px;
+
+}
+.card-content p{
+    line-height: 1.5rem;
+    font-size: 0.9rem;
+    position: absolute;
+    top: 350px;
+    right: 15px;
+    color: #9b9b9b;
+    font-family: Pinar-DS1-FD, serif;
+}
+.card-content h3 {
+    color: #ffffff;
+    font-family: Pinar-DS1-FD, serif;
+    position: absolute;
+    top: 380px;
+    right: 18px;
+}
+
+
+/*Consultation form part*/
+.consultation-form {
+    margin-top: 10px;
+}
+.consultation-form .form-edit2{
+    position: relative;
+    bottom: 20px;
+    left: 115px;
+    box-shadow: 2px 2px 16px -7px #000000;
+    z-index: 10;
+}
+.consultation-form img {
+    width: 650px;
+    height: 570px;
+    position: relative;
+    bottom: 40px;
+    right: 100px;
+}
+
+.consultation-form .card p {
+    margin-right: 15px ;
+
+}
+.consultation-form input {
+    border: none;
+    width: 100%;
+    height: 60px;
+    margin: 8px;
+    color: #b7b9c4;
+}
+.consultation-form .input-title{
+    width:97%;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+input[type=number] {
+    appearance:textfield;
+    direction: rtl;
+}
+.consultation-form input:focus {
+    outline:none;
+    border-bottom: solid 1px #000000 !important;
+}
+.consultation-form textarea {
+    border: none;
+    height: 80px;
+}
+.consultation-form button {
+    font-family: Pinar-DS1-FD, serif;
+    color: #ffffff;
+    background-color: #F17E3E;
+    width: 120px;
+    height: 60px;
+    border: none;
+    margin: 18px 15px 10px 0;
+}
+
+/*Section about CEO*/
+.about-edit {
+    background-color: #F8F9FF;
+}
+.about-edit img {
+    width: 100%;
+    width: 370px;
+    height: 370px;
+    animation: myAnim 16s ease 0s 1 normal;
+    margin: -12px 116px 57px 0;
+}
+@keyframes myAnim {
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    10%,
+    30%,
+    50%,
+    70% {
+        transform: translateY(-8px);
+    }
+
+    20%,
+    40%,
+    60% {
+        transform: translateY(8px);
+    }
+
+    80% {
+        transform: translateY(6.4px);
+    }
+
+    90% {
+        transform: translateY(-6.4px);
+    }
+}
+.about-text-edit {
+    margin: 0 0 90px 0;
+}
+.about-edit h5 {
+    font-family: Pinar-DS1-FD, serif;
+    color: #F27E3F;
+    font-size: 15px;
+    font-weight: 200;
+}
+.about-edit h2 {
+    font-family: Pinar-DS1-FD, serif;
+    color: #233D62;
+    font-size: 27px;
+    font-weight: 200;
+}
+.about-edit p {
+    font-family: IRANSansWeb-FaNum, serif;
+    font-size: 20px;
+    line-height: 34px;
+    width: 89%;
+}
+
+
+/*The team part*/
+.team-section {
+    margin-right: 100px !important;
+}
+.team-section p{
+    font-size: 40px;
+    font-family: Pinar-DS1-FD, serif;
+    color: #233D62;
+}
+.team-section .team-image {
+    width: 90%;
+    position: relative;
+    right: -20px;
+}
+.team-image img {
+    width: 250px;
+    height: 320px;
+}
+.team-shape svg {
+    height: 290px;
+    position: absolute;
+    top: 125px;
+    left: 60px
+}
+.team-shape p {
+    font-family: Pinar-DS1-FD, serif;
+    font-size: 21px;
+    position: absolute;
+    top: 250px;
+}
+.team-shape h5 {
+    font-family: IRANSansWeb-FaNum, serif;
+    font-size: 15px;
+    position: absolute;
+    top: 290px;
+    color: #616b77;
+}
+
+/*Asking questions section*/
+.asking-questions {
+    background-color: #f8f9ff;
+    margin-top:100px ;
+    z-index: 10;
+
+}
+.asking-questions h1 {
+    font-family: Pinar-DS1-FD, serif;
+    z-index: 10;
+    color: #233D62;
+    font-size: 50px;
+    margin-right: 50px;
+    align-content: center;
+
+}
+.asking-questions img {
+    height: auto;
+    width: 180px;
+    margin-top: 90px;
+    z-index: 10;
+
+}
+.asking-questions .card-edit {
+    width: 145%;
+    box-shadow: 2px 2px 16px -12px #000000;
+    z-index: 10;
+    margin-right: -25px;
+}
+.asking-questions .card-edit1, .card-edit2 {
+    padding: 30px;
+    background-color: #ffffff;
+}
+.asking-questions .card-edit1 p, .card-edit2 p {
+    color: #6c757d;
+}
+.asking-questions .card-edit1 h4 , .card-edit2 h4 {
+    font-family: Pinar-DS1-FD, serif;
+    font-size: 20px;
+}
+.edit-one {
+    margin-top: -120px;
+}
+
+
+/*footer*/
+footer {
+    margin: -15px -80px 200px 0;
+}
+footer .section-one p {
+    width: 75%;
+    font-family: IRANSansWeb-FaNum, serif;
+    color: #4C5B76;
+    font-size: 15px;
+    line-height: 30px;
+}
+footer .contact-icon {
+    margin: 40px -10px 0 0;
+}
+footer .contact-icon i {
+    font-size: 25px;
+    margin: 10px;
+    color: #4C5B76;
+}
+.section-tow .one h6, .tow h6{
+    color: #233D62;
+    font-family: Pinar-DS1-FD, serif;
+    margin-bottom: 10px;
+}
+.section-tow .one a, .tow a {
+    display: block;
+    padding-top: 10px;
+    color: #6c757d;
+    text-decoration: none;
+}
+.section-tow a:hover {
+    color: #000000;
+    transition: .3s;
+}
+
+.top {
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    top:720px;
+    right: 1500px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 50px  #000000;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/*media query*/
+@media (min-width: 300px) and (max-width: 575.98px) {
+    /* header */
+    .introduction {
+        flex-direction: column-reverse;
+    }
+    .introduction-sec2 img{
+        width: 260px;
+        height: 100%;
+        margin-bottom: -90px !important;
+        margin-right: -25%!important;
+    }
+    /* Introduction Section */
+    /* About us Section */
+    /* Service section */
+    /* Consultation form part */
+    .consultation-form img {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        bottom: 83px;
+        right: -10px;
+    }
+    .consultation-form .form-edit2 {
+        /* width: 100%; */
+        position: relative;
+        bottom: 107px;
+        left: 0;
+    }
+    /* Section about CEO */
+    .about-edit img {
+        width: 100%;
+        width: 328px;
+        height: 370px;
+        animation: myAnim 16s ease 0s 1 normal;
+        margin: -12px 9px 57px 0;
+    }
+
+    /* The team part */
+    .team-section .team-image {
+        width: 90%;
+        position: relative;
+        right: -61px;
+    }
+    .mb-col-edit {
+        margin-bottom: -197px;
+
+    }
+    /* .team-shape svg {
+        height: 242px;
+        position: relative;
+        top: 135px;
+        left: 183px;
+    } */
+    .team-shape svg {
+        height: 242px;
+        position: relative;
+        top: -184px;
+        left: 66px;
+    }
+    /* Asking questions section */
+
+    /* footer */
+    .asking-questions {
+        margin-top: -119px;
+    }
+    .asking-questions h1 {
+        width: 70%;
+        font-size: 34px;
+        margin-top: 20px ;
+    }
+    footer {
+        margin: -14px 92px 100px 0;
+    }
+    .asking-questions .card-edit {
+        width: 86%;
+        box-shadow: 2px 2px 16px -12px #000000;
+        z-index: 10;
+        margin: 28px 28px 0 0;
+    }
+}
+
+/* sm */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    /* header */
+    .introduction {
+        flex-direction: column-reverse;
+    }
+    .introduction-sec2 img{
+        width: 400px;
+        height: 50%;
+    }
+    /* Introduction Section */
+    /* About us Section */
+    /* Service section */
+    /* Consultation form part */
+    .consultation-form img {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        bottom: 81px;
+        right: -8px;
+    }
+    .consultation-form .form-edit2 {
+        /* width: 100%; */
+        position: relative;
+        bottom: 107px;
+        left: 7px;
+    }
+    /* Section about CEO */
+    .about-edit img {
+        width: 417px;
+        height: 424px;
+        animation: myAnim 16s ease 0s 1 normal;
+        margin: -12px 57px 57px 0;
+    }
+    /* The team part */
+    .team-section {
+        margin-right: 52px !important;
+    }
+    .team-section .container {
+        max-width: 553px;
+    }
+    .team-shape svg {
+        height: 265px;
+        position: absolute;
+        top: 133px;
+        left: 37px;
+    }
+    .not-margin {
+        margin-bottom: 62px;
+    }
+    /* Asking questions section */
+    .asking-questions h1 {
+        margin-right: -28px;
+    }
+    .asking-questions .card-edit {
+        width: 107%;
+    }
+    .asking-questions .card-edit1, .card-edit2 {
+        padding: 17px;
+    }
+    /* footer */
+}
+
+/* md */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* header */
+    /* Introduction Section */
+    /* About us Section */
+    /* Service section */
+        /* Consultation form part */
+        .consultation-form img {
+            position: relative;
+            bottom: 40px;
+            right: -107px;
+        }
+        .consultation-form .form-edit2 {
+            position: relative;
+            bottom: 20px;
+            left: 15px;
+        }
+    /* Section about CEO */
+    .about-edit img {
+        width: 100%;
+        width: 370px;
+        height: 370px;
+        animation: myAnim 16s ease 0s 1 normal;
+        margin: -12px -49px 57px 0;
+    }
+    /* The team part */
+    .not-margin {
+        margin-bottom: 90px;
+    }
+    .team-shape svg {
+        height: 290px;
+        position: absolute;
+        top: 125px;
+        left: 92px;
+    }
+    /* Asking questions section */
+    .asking-questions h1 {
+        font-size: 29px;
+        margin-right: -3px;
+    }
+    .asking-questions .card-edit {
+        width: 168%;
+    }
+    /* footer */
+}
+
+/* lg */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* header */
+    .navbar-menu {
+        margin-right: 12%;
+    }
+    /* Introduction Section */
+    .introduction-sec2 img{
+        width: 100%;
+        height: 50%;
+        position: relative;
+        right: -1px;
+    }
+    /* About us Section */
+    /* Service section */
+    /* Consultation form part */
+    .consultation-form img {
+        position: relative;
+        bottom: 40px;
+        right: -29px;
+    }
+    .consultation-form .form-edit2 {
+        position: relative;
+        bottom: 20px;
+        left: 56px;
+    }
+    /* Section about CEO */
+    .about-edit img {
+        width: 100%;
+        width: 370px;
+        height: 370px;
+        animation: myAnim 16s ease 0s 1 normal;
+        margin: -12px -12px 57px 0;
+    }
+    /* The team part */
+    .team-section .container {
+        max-width: 1115px;
+    }
+    .team-section .team-image {
+        width: 20%;
+        position: relative;
+        right: -56px
+    }
+    .team-image img {
+        width: 223px;
+        height: 320px;
+    }
+    .team-shape svg {
+        height: 290px;
+        position: absolute;
+        top: 125px;
+        left: 5px;
+    }
+    /* Asking questions section */
+    /* footer */
+
+}
+
+/* xl */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    /* header */
+    /* Introduction Section */
+    /* About us Section */
+    /* Service section */
+    /* Consultation form part */
+    .consultation-form img {
+        position: relative;
+        bottom: 40px;
+        right: 1px;
+    }
+    /* Section about CEO */
+    .about-edit img {
+        width: 100%;
+        width: 370px;
+        height: 370px;
+        animation: myAnim 16s ease 0s 1 normal;
+        margin: -12px 9px 57px 0;
+    }
+    /* The team part */
+    .team-shape svg {
+        height: 290px;
+        position: absolute;
+        top: 125px;
+        left: 15px;
+    }
+    /* Asking questions section */
+    /* footer */
+}
